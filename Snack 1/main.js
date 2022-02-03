@@ -26,7 +26,7 @@ const biciclette = [
         'peso': 14
     }
 ]
-// questa cosa poteca esse scritta con una sola variabile
+
 let biciletta_leggera = biciclette[0].peso;
 let j = 0;
 
