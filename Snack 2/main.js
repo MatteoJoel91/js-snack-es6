@@ -35,7 +35,7 @@ const squadre = [
 ]
 // console.log(squadre[0].punti);
 
-
+let squadre2 = [0];
 
 for (let i = 0; i < squadre.length; i++) {
 
@@ -45,14 +45,12 @@ for (let i = 0; i < squadre.length; i++) {
     falli_random = numero_random(1, 8);
     squadre[i].falli = falli_random; 
 
+    let {nome, falli} = squadre[i];
+    squadre2.push({nome, falli});
+    console.log(`${nome} ha subito ${falli} falli`);
 }
 console.log(squadre); 
 
-
-
-const {nome, falli} = squadre;
-
-console.log(nome, falli);
 
 
 
